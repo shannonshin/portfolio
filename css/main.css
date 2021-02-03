@@ -416,3 +416,7 @@ button{
 }
 #name,#email{width:70%;}
 .honeypot-field{display:none;}
+.thankyou_message{
+    text-align:center;
+    padding:15px;
+}
