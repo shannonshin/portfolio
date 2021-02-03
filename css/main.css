@@ -1,0 +1,418 @@
+@charset "utf-8";
+
+/*메인슬라이더*/
+.mainSlider{position:relative;}
+.mainSliderBg{
+    height:1032px;
+    background:url(../images/mainSliderBg.png) no-repeat center center;
+    margin:1%;
+    text-indent:-9999px;
+    position:relative;
+}
+.mainSliderBg img{
+    display:block;
+    margin:0 auto;
+    padding-top:200px;
+    position:relative;
+}
+.mPhone{
+    position:absolute;
+    left:50%;
+    margin-left:-125px;
+    top:83px;
+}
+
+.mainSliderTit{
+    position:absolute;
+    left:60%;
+    top:70%;
+    text-shadow:rgba(0,0,0,0.1) 1px 1px;
+}
+.mainSliderTit h2{
+    font-size:36px;
+    color:#fff;
+}
+.mainSliderTit span{
+    font-size:20px;
+    font-weight:200;
+    display:block;
+    margin-top:15px;
+}
+.mouse{
+    position:absolute;
+    bottom:30px;
+    left:50%;
+    margin-left:-23px;
+    animation:move 0.7s infinite linear alternate;
+}
+.mouse img{}
+
+/*웹모바일컨텐츠*/
+.webSection{
+    position:relative;
+    margin-top:400px;
+}
+.tit{
+    position:absolute;
+    width:100%;
+    text-align:center;
+    font-weight:700;
+    z-index:1;
+}
+.tit h2{
+    font-size:120px;
+    color:#ffb92a;
+    top:50%;
+    margin-top:-80px;
+}
+
+.webCon{}
+.txtWrap{
+    float:left;
+    width:50%;
+    height:1080px;
+    background:url(../images/con01ConBg.png) no-repeat left top;
+}
+.txt{
+    padding-top:218px;
+    padding-left:20%;
+}
+.txt h3{
+    font-size:36px;
+    color:#ffb92a;
+    margin-bottom:40px;
+    display:inline-block;
+    vertical-align:middle;
+}
+.colorchip{
+    display:inline-block;
+    margin-left:10px;
+}
+.colorchip span,.colorchip::before,.colorchip::after{
+    content:"";
+    display:inline-block;
+    width:24px;
+    height:24px;
+    border-radius:50%;
+    background:#ffb92a;
+    margin-right:10px;
+    vertical-align:middle;
+}
+.colorchip span{background:#c82e3f;}
+.colorchip::before{background:#333333;}
+.colorchip::after{
+    background:#ffffff;
+    border:1px solid #e7e7e7;
+}
+.con02 .colorchip span{background:#f4841f;}
+.con02 .colorchip::before{background:#2a2a3e;}
+.con02 .colorchip::after{
+    background:#ffffff;
+    border:1px solid #e7e7e7;
+}
+.con03 .colorchip span{background:#d90d0f;}
+.con03 .colorchip::before{background:#34140c;}
+.con03 .colorchip::after{background:#d6d7b3;}
+
+.txt p{
+    font-size:24px;
+    line-height:36px;
+    color:#bfb899;
+}
+.txt .light{font-weight:200;}
+.txt .small p{
+    font-size:20px;
+    line-height:30px;
+    font-weight:200;
+}
+.line{
+    width:40px;
+    height:4px;
+    text-indent:-9999px;
+    background:#bfb899;
+    margin:30px 0 10px 0;
+}
+.icon{
+    margin-top:50px;
+    margin-right:20px;
+    display:inline-block;
+}
+.icon:hover img{opacity:50%;}
+.work{
+    float:right;
+    width:50%;
+    height:1080px;
+    background:#bfb899;    
+}
+.work img{
+    display:block;
+    width:100%;
+}
+
+.arrow{
+    position:absolute;
+    bottom:10%;
+    left:10%;
+    cursor:pointer;
+}
+.arrow div{
+    display:inline-block;
+    margin-right:50px;
+}
+.arrow img{}
+
+
+/*디자인컨텐츠*/
+.dSection{
+    margin-top:400px;
+    position:relative;
+}
+.dSection .tit h2{color:#2a476b;}
+.dCon{
+    background:url(../images/con02ConBg.png);
+    height:1080px;
+    position:relative;
+}
+.dCon .colorchip{
+    display:block;
+    margin-top:381px;
+    margin-left:0;
+}
+.dCon01 .colorchip span,.dCon01 .colorchip::before,.dCon01 .colorchip::after{
+    content:"";
+    display:inline-block;
+    margin:256px 0 10px 10px;
+}
+
+.dCon01 .colorchip span{background:#e99a22;}
+.dCon01 .colorchip::before{background:#fbd309;}
+.dCon01 .colorchip::after{background:#78c143;}
+
+.dCon02 .colorchip span{background:#32c5ef;}
+.dCon02 .colorchip::before{background:#7d6fb1;}
+.dCon02 .colorchip::after{background:#3fbfae;}
+.dCon .txtWrap{
+    background:none;
+    text-align:right;
+    padding-right:5%;
+    box-sizing:border-box;
+}
+.dCon .txt{padding-top:0;}
+.dCon .txt h3{    
+    color:#2a476b;
+}
+.dCon .txt p{    
+    color:#4f4e4f;
+}
+.dCon .line{
+    margin:30px 0 10px auto;
+    background:#4f4e4f;
+    font-size:0;
+}
+.dWork{
+    margin-top:140px;
+    float:right;
+    width:50%;
+}
+.dWork img{
+    display:block;
+    max-width:90%;
+}
+
+.dCon02 .txtWrap{
+    width:35%;
+    text-align:left;
+}
+.dCon02 .dWork{
+    width:65%;
+    margin-top:245px;
+}
+.dCon02 .line{margin:30px 0 10px 0;}
+.dCon02 .txt{
+    padding-left:30%;
+    padding-top:290px;
+}
+.dCon03 .txtWrap{
+    width:50%;
+    text-align:right;
+}
+.dCon03 .dWork{
+    width:50%;
+    margin-top:177px;
+}
+.dCon03 .line{}
+.dCon03 .txt{
+    padding-left:30%;
+    padding-top:600px;
+}
+.dCon04 .txtWrap{
+    width:50%;
+    text-align:right;
+}
+.dCon04 .dWork{
+    width:50%;
+    margin-top:245px;
+}
+.dCon04 .line{}
+.dCon04 .txt{
+    padding-left:30%;
+    padding-top:600px;
+}
+
+.arrow2{
+    cursor:pointer;
+}
+.arrow2>div{
+    position:absolute;
+    top:50%;
+    margin-top:-19px;
+}
+.arrow2 img{}
+.arrowL2{left:30px;}
+.arrowR2{right:30px;}
+
+
+/*브랜딩컨텐츠*/
+.bSection{margin-top:400px;}
+.bSection .tit{}
+.bSection .tit h2{color:#4d8168;}
+
+.bCon{
+    height:1080px;
+    background:url(../images/con03ConBg.png) no-repeat center center;
+}
+.bCon dl{
+    width:33%;
+    float:left;
+    text-align:center;
+    padding-top:150px;
+}
+.bCon dt{
+    font-family:"GmarketSans", sans-serif;
+    font-weight:700;
+    font-size:30px;
+    color:#d8c389;
+    margin-bottom:30px;
+}
+.branding dt{color:#98aba2;}
+.variation dt{color:#aeb58d;}
+.bCon dd{
+    font-size:20px;
+    line-height:30px;
+    color:#7d7d7d;
+}
+.bCon dd p{}
+.bCon dd span{
+    position:absolute;
+    border:1px solid #7d7d7d;
+    border-radius:20px;
+    padding:5px 10px;
+}
+.bCon dd span:hover{
+    color:#d8c389;
+    border-color:#d8c389;
+}
+.keyword{position:relative;}
+.key1{
+    top:350px;
+    left:10%;
+    animation:move 0.8s infinite linear alternate;
+}
+.key2{
+    top:500px;
+    left:30%;
+    animation:move 0.8s infinite linear alternate;
+}
+.key3{
+    top:400px;
+    left:45%;
+    animation:move 0.7s infinite linear alternate;
+}
+.key4{
+    top:450px;
+    left:65%;
+    animation:move 0.9s infinite linear alternate;
+}
+.key5{
+    top:800px;
+    left:30%;
+    animation:move 0.8s infinite linear alternate;
+}
+.key6{
+    top:680px;
+    left:50%;
+    animation:move 0.5s infinite linear alternate;
+}
+.key7{
+    top:750px;
+    left:70%;
+    animation:move 0.7s infinite linear alternate;
+}
+.key8{
+    top:600px;
+    left:15%;
+    animation:move 0.6s infinite linear alternate;
+}
+@keyframes move{
+    0%{transform:translate(0);}
+    100%{transform:translate(0,10px);}
+}
+
+.bCon dd img{
+    margin-top:120px;
+    max-width:90%;
+}
+
+
+/*contact*/
+.contact{
+    text-align:center;
+    margin-top:150px;
+}
+.contact a{margin:30px;}
+.contact a img{width:50px;}
+
+/*form*/
+fieldset{
+    border:0;
+    padding:10px 20px;
+}
+.gform{
+    width:40%;
+    margin:30px auto;
+    border:1px solid #d8c389;
+    border-radius:30px;
+    font-family:"NanumBarunGothic", sans-serif;
+    display:none;
+}
+textarea,input{
+    border:1px solid #d8c389;
+    padding:5px;
+}
+textarea{
+    font-family:"NanumBarunGothic", sans-serif;
+    width:100%;
+    margin-top:10px;
+    display:block;
+}
+input{
+    margin-left:10px;
+}
+.button-success{
+    color:white;
+    border-radius:30px;
+    background:#d8c389;
+    padding:10px 15px;
+    border:0;
+    font-size:20px;
+}
+.form-elements{position:relative;}
+button{
+    position:absolute;
+    bottom:-57px;
+    left:50%;
+    margin-left:-38px;
+    cursor:pointer;
+}
+#name,#email{width:70%;}
+.honeypot-field{display:none;}

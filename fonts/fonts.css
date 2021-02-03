@@ -1,0 +1,61 @@
+/*나눔바른고딕*/
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 200;
+    src: local('NanumBarunGothic'),
+        url('NanumBarunGothicL.woff2') format('woff2'), 
+        url('NanumBarunGothicL.woff') format('woff'),
+        url('NanumBarunGothicL.ttf') format('truetype'),
+        url('NanumBarunGothicL.otf') format('opentype'),
+        url('NanumBarunGothicL.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: local('NanumBarunGothic'),
+        url('NanumBarunGothicR.woff2') format('woff2'), 
+        url('NanumBarunGothicR.woff') format('woff'),
+        url('NanumBarunGothicR.ttf') format('truetype'),
+        url('NanumBarunGothicR.otf') format('opentype'),
+        url('NanumBarunGothicR.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 700;
+    src: local('NanumBarunGothic'),
+        url('NanumBarunGothicB.woff2') format('woff2'), 
+        url('NanumBarunGothicB.woff') format('woff'),
+        url('NanumBarunGothicB.ttf') format('truetype'),
+        url('NanumBarunGothicB.otf') format('opentype'),
+        url('NanumBarunGothicB.eot') format('embedded-opentype');
+}
+
+/*G마켓산스*/
+@font-face {
+    font-family: 'GmarketSans';
+    font-style: normal;
+    font-weight: 200;
+    src: local('GmarketSans'),
+        url('GmarketSansLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GmarketSans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('GmarketSans'),
+        url('GmarketSansMedium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GmarketSans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('GmarketSans'),
+        url('GmarketSansBold.otf') format('opentype');
+}

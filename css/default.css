@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+body,p,h1,h2,h3,h4,h5,h6,dl,dt,dd{margin:0;}
+body{
+    color:#333;
+    font-family:'NanumBarunGothic', sans-serif;
+    letter-spacing:-0.5px;
+}
+h1,h2,h3,h4,h5,h6{font-family:'GmarketSans', sans-serif;}
+a{
+    text-decoration:none;
+    color:#333;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.cf::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+*:focus{outline:none;}
+
+
+
