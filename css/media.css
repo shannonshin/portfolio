@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /*웹뷰*/
-.panel,.mCon03Search,.mMainCon04{display:none;}
+.panel{display:none;}
 
 
 /*모바일뷰*/
@@ -9,4 +9,110 @@
     /*웹공통*/
     body{min-width:auto;}
     .inner{width:auto;}
+    
+    /*모바일뷰*/
+    
+    /*헤더*/
+    #header{
+        left:3%;
+        top:3%;
+    }
+    #header img{width:70%;}
+    
+    /*메인슬라이더*/
+    .mainSliderBg{height:100%;}
+    .mainSliderBg .phoneMockup{
+        padding-top:50px;
+        padding-bottom:150px;
+    }
+    .mPhone{}
+    .mainSliderTit{
+        left:50%;
+        margin-left:-132px;
+        top:510px;
+    }
+    .mouse{bottom:8px;}
+    .mouse img{width:80%;}
+    
+    /*웹컨텐츠*/
+    .webSection,.bSection,.dSection{margin-top:150px;}
+    .tit h2{
+        font-size:45px;
+    }
+    .txtWrap{
+        width:100%;
+        height:500px;
+        background-size:cover;
+        padding-top:50px;
+    }
+    .txt{padding:10px;}
+    .txt h3{font-size:24px;}
+    .txt p,.txt .small p{
+        font-size:16px;
+        line-height:24px;
+    }
+    .colorchip{margin:0;}
+    .colorchip span,.colorchip::before,.colorchip::after{
+        width:20px;
+        height:20px;
+    }
+    .work{
+        width:100%;
+        height:100%;
+    }
+    .arrow{
+        bottom:45%;
+        left:50%;
+        margin-left:-45px;
+    }
+    /*그래픽디자인*/
+    .dCon{
+        background-size:cover;
+    }
+    .dCon .txtWrap{
+        width:100%;
+        height:500px;
+    }
+    .dCon .dWork{
+        width:100%;
+        height:100%;
+        margin-top:0;
+    }
+    .dCon .txt{
+        margin-top:0;
+        padding-top:0;
+        padding-left:0;
+    }
+    .dCon02 .txtWrap{text-align:right;}
+    .dCon02 .line{margin:30px 0 10px auto;}
+    .dCon .colorchip{
+        margin:0 0 auto 0;
+    }
+    .dCon .colorchip span,.dCon .colorchip::before,.dCon .colorchip::after{
+        margin:0 0 10px 10px;
+    }
+    .arrow2>div{top:35%;}
+    .dWork img{margin:0 auto;}
+    
+    /*로고컨텐츠*/
+    .bCon{height:100%;}
+    .bCon dl{
+        float:none;
+        display:block;
+        width:98%;
+        height:500px;
+        padding-top:30px;
+    }
+    .keyWrap{height:450px;}
+    .bCon dd img{
+        margin-top:20px;
+    }
+    .dCon .colorchip{margin-top:0;}
+    .dCon01 .colorchip span,.dCon01 .colorchip::before,.dCon01 .colorchip::after{
+        margin-top:0;
+    }
+    
+    /*form*/
+    .gform{width:90%;}
+    
 }
