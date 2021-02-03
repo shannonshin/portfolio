@@ -8,6 +8,7 @@
     margin:1%;
     text-indent:-9999px;
     position:relative;
+    border-radius:50px;
 }
 .mainSliderBg img{
     display:block;
