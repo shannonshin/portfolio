@@ -5,12 +5,14 @@ body{
     color:#333;
     font-family:'NanumBarunGothic', sans-serif;
     letter-spacing:-0.5px;
+    cursor:url(../default.cur), default;
 }
 h1,h2,h3,h4,h5,h6{font-family:'GmarketSans', sans-serif;}
 a{
     text-decoration:none;
     color:#333;
 }
+a:hover{cursor:url(../click.cur), pointer;}
 
 ul{
     margin:0;
@@ -23,7 +25,10 @@ ul{
     display:block;
     clear:both;
 }
+
 *:focus{outline:none;}
+
+
 
 
 

@@ -112,7 +112,13 @@
         margin-top:0;
     }
     
+    /*contact*/
+    .contact a img{width:35px;}
+    
     /*form*/
     .gform{width:90%;}
+    
+    /*footer*/
+    #footer p{font-size:12px;}
     
 }
